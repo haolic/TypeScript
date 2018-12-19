@@ -1,0 +1,24 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc greeter.ts && http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haolic/TypeScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haolic/TypeScript/issues"
+  },
+  "homepage": "https://github.com/haolic/TypeScript#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "typescript": "^3.2.2"
+  }
+}
