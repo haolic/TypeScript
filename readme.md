@@ -10,5 +10,3 @@ $ npm start
 ```
 
 Faruxue
-
-
