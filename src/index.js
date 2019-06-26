@@ -1,17 +1,23 @@
-import _ from 'lodash';
-import './index.ts';
+import _ from "lodash";
+import "./index.less";
+import readonly from "./index.ts";
+import arrayReadonly from "./arrayReadonly.ts";
+import otherPropsCheck from "./otherPropsCheck.ts";
 
-function component() {
-  var element = document.createElement("div");
-  var btn = document.createElement("button");
-  element.innerHTML = _.join(["Hello", "webpack"], " ");
-  btn.innerHTML = "Click me and check the console2222!";
+const btnList = [readonly, arrayReadonly, otherPropsCheck];
+function component(btnInfo) {
+  const element = document.createElement("div");
+  element.classList.add('wrap')
+  const btn = document.createElement("button");
+  element.innerHTML = _.join(["Hello", "typescript"], " ");
+  btn.innerHTML = btnInfo.name;
+  btn.classList.add("btn");
   btn.onclick = () => {
-    handleClick({ value: '123' });
+    btnInfo.fn();
   };
   element.appendChild(btn);
-
   return element;
 }
-
-document.body.appendChild(component());
+btnList.forEach(el => {
+  document.body.appendChild(component(el));
+});

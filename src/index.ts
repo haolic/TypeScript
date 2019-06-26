@@ -4,6 +4,7 @@ const readonly = () => {
     readonly y: number;
   }
   const p1: Point = { x: 10, y: 20 };
+  console.log("readonly");
   // p1.x = 5;  // error
 };
-readonly();
+export default { name: "readonly", fn: readonly };
