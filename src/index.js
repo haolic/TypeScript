@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import handleClick from './index.ts';
+import './index.ts';
 
 function component() {
   var element = document.createElement('div');
