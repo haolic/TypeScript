@@ -5,6 +5,8 @@ import arrayReadonly from './arrayReadonly.ts';
 import otherPropsCheck from './otherPropsCheck.ts';
 import otherPropsCheck1 from './otherPropsCheck.1.ts';
 import interfaceFunction from './interfaceFunction.ts';
+import interfaceFunction1 from './interfaceFunction.1.ts';
+import indextype from './indextype.ts';
 import $ from 'jquery';
 
 const btnList = [
@@ -12,7 +14,9 @@ const btnList = [
   arrayReadonly,
   otherPropsCheck,
   otherPropsCheck1,
-  interfaceFunction
+  interfaceFunction,
+  interfaceFunction1,
+  indextype
 ];
 const btnStyleList = [
   'button-3d',
