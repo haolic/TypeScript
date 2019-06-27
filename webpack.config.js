@@ -34,7 +34,8 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "typescript"
+      title: "typescript",
+      template: './src/index.html'
     })
   ],
   devtool: "inline-source-map",
