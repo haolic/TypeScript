@@ -3,22 +3,24 @@ import './index.less';
 import readonly from './index.ts';
 import arrayReadonly from './arrayReadonly.ts';
 import otherPropsCheck from './otherPropsCheck.ts';
+import otherPropsCheck1 from './otherPropsCheck.1.ts';
+import interfaceFunction from './interfaceFunction.ts';
 import $ from 'jquery';
 
-const btnList = [readonly, arrayReadonly, otherPropsCheck];
+const btnList = [
+  readonly,
+  arrayReadonly,
+  otherPropsCheck,
+  otherPropsCheck1,
+  interfaceFunction
+];
 const btnStyleList = [
-  'button-raised',
-  'button-caution',
   'button-3d',
   'button-action',
   'button-pill',
-  'button-primary',
-  'button-giant',
+  // 'button-giant',
   'button-longshadow-right',
-  'button-rounded',
-  'button-plain',
-  'button-small-caps',
-  'button-border'
+  'button-longshadow-left'
 ];
 
 const getRandom = (min, max) => {
