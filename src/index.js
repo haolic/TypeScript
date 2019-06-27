@@ -28,7 +28,6 @@ const getRandomItem = (btnStyleList, num) => {
   let str = '';
   for (let i = 1; i < num; i++) {
     const ran = getRandom(0, btnStyleList.length);
-    console.log(ran);
     str += ` ${btnStyleList[ran]}`;
   }
   return str;
