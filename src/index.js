@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import './index.less';
+import $ from 'jquery';
 import readonly from './index.ts';
 import arrayReadonly from './arrayReadonly.ts';
 import otherPropsCheck from './otherPropsCheck.ts';
@@ -7,7 +8,8 @@ import otherPropsCheck1 from './otherPropsCheck.1.ts';
 import interfaceFunction from './interfaceFunction.ts';
 import interfaceFunction1 from './interfaceFunction.1.ts';
 import indextype from './indextype.ts';
-import $ from 'jquery';
+import interfaceClass from './interfaceClass';
+import interfaceClassStatic from './interfaceClassStatic';
 
 const btnList = [
   readonly,
@@ -16,7 +18,9 @@ const btnList = [
   otherPropsCheck1,
   interfaceFunction,
   interfaceFunction1,
-  indextype
+  indextype,
+  interfaceClass,
+  interfaceClassStatic
 ];
 const btnStyleList = [
   'button-3d',
