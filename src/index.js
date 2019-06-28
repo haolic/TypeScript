@@ -10,6 +10,7 @@ import interfaceFunction1 from './interfaceFunction.1.ts';
 import indextype from './indextype.ts';
 import interfaceClass from './interfaceClass';
 import interfaceClassStatic from './interfaceClassStatic';
+import interfaceExtends from './interfaceExtends';
 
 const btnList = [
   readonly,
@@ -20,7 +21,8 @@ const btnList = [
   interfaceFunction1,
   indextype,
   interfaceClass,
-  interfaceClassStatic
+  interfaceClassStatic,
+  interfaceExtends
 ];
 const btnStyleList = [
   'button-3d',
@@ -51,9 +53,13 @@ $(function() {
           btnStyleList,
           3
         )} btn-custom">${el.name || 'typescript hh'}</button>`
-      ).click(el.fn);
+      ).click(() => {
+        $('#text').html('');
+        $('#text').html(`<textarea class="textarea" readonly>${el.fn()}</textarea>`);
+      });
       $wrap.append($btn);
     });
   };
+  window.rDom = document.querySelector('#text');
   renderDom();
 });

@@ -13,7 +13,7 @@ const func = () => {
   }
   console.log(new Clock(11, 30));
 
-  console.log(
+  return (
     `
 interface ClockInterface {
   currentTime: Date;

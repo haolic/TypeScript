@@ -13,7 +13,7 @@ interface IndexType2 {
 
 const testarr2: IndexType2 = ["d", "2"];
 const func = (): string => {
-  console.log(`%c
+  return `
   interface IndexType {
     0: number;
     1: number;
@@ -28,8 +28,7 @@ const func = (): string => {
   }
   
   const testarr2: IndexType2 = ["d", "2"];
-  `, 'border: 1px solid #f90');
-  return "";
+  `
 };
 export default {
   name: "索引类型",

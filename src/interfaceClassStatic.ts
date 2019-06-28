@@ -30,7 +30,7 @@ const func = () => {
   let digital = createClock(DigitalClock, 12, 17);
   let analog = createClock(AnalogClock, 7, 32);
   console.log(digital, analog);
-  console.log(
+  return (
 `
 interface ClockConstructor {
   new (hour: number, minute: number): ClockInterface;

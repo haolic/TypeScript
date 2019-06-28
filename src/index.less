@@ -1,6 +1,47 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #311f31;
+}
+.container {
+  height: 100%;
+  display: flex;
+}
+#app {
+  width: 50%;
+  overflow: scroll;
+  height: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+}
+#text {
+  height: 100%;
+  width: 50%;
+  border-left: 2px dashed #f90;
+  padding: 24px;
+  box-sizing: border-box;
+  overflow: scroll;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .btn-custom {
   margin-left: 15px;
   margin-top: 24px;
+}
+.textarea {
+  resize: none;
+  width: 100%;
+  height: 80%;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: Monaco;
+  color: #dfdfdf;
+  background: #4e4b69;
 }
 .wrap {
   padding: 15px;
