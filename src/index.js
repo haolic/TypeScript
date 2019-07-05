@@ -11,6 +11,8 @@ import indextype from './indextype.ts';
 import interfaceClass from './interfaceClass';
 import interfaceClassStatic from './interfaceClassStatic';
 import interfaceExtends from './interfaceExtends';
+import classExtends from './classExtends';
+import classExtends1 from './classExtends1';
 
 const btnList = [
   readonly,
@@ -22,7 +24,9 @@ const btnList = [
   indextype,
   interfaceClass,
   interfaceClassStatic,
-  interfaceExtends
+  interfaceExtends,
+  classExtends,
+  classExtends1
 ];
 const btnStyleList = [
   'button-3d',
