@@ -1,7 +1,7 @@
 {
   "name": "mytypescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "TS的DEMO",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,8 +14,8 @@
     "type": "git",
     "url": "git+https://github.com/haolic/TypeScript.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["TypeScript", "javascript", "js", "web"],
+  "author": "Faruxue",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/haolic/TypeScript/issues"
