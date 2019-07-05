@@ -1,19 +1,8 @@
-<h1 align="center">Welcome to mytypescript 👋</h1>
-<p>
-  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/haolic/TypeScript#readme">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
-  </a>
-  <a href="https://github.com/haolic/TypeScript/graphs/commit-activity">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
-  </a>
-  <a href="&#39;&#39;">
-    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" target="_blank" />
-  </a>
-  <a href="https://twitter.com/faruxue2019">
-    <img alt="Twitter: faruxue2019" src="https://img.shields.io/twitter/follow/faruxue2019.svg?style=social" target="_blank" />
-  </a>
-</p>
+# Welcome to mytypescript 👋
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/haolic/TypeScript#readme)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/haolic/TypeScript/graphs/commit-activity)
+[![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)](https://github.com/haolic/TypeScript/blob/master/LICENSE)
 
 > TS的DEMO
 
@@ -34,28 +23,31 @@ npm run start
 ## Run tests
 
 ```sh
-&#39;&#39;
+npm run test
 ```
 
 ## Author
 
 👤 **Faruxue**
 
-* Twitter: [@faruxue2019](https://twitter.com/faruxue2019)
 * Github: [@haolic](https://github.com/haolic)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/haolic/TypeScript/issues).
+Contributions, issues and feature requests are welcome!
+
+Feel free to check [issues page](https://github.com/haolic/TypeScript/issues).
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
+
 ## 📝 License
 
-Copyright © 2019 [Faruxue](https://github.com/haolic).<br />
-This project is [ISC](&#39;&#39;) licensed.
+Copyright © 2019 [Faruxue](https://github.com/haolic).
+
+This project is [ISC](https://github.com/haolic/TypeScript/blob/master/LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
