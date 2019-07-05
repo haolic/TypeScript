@@ -13,6 +13,9 @@ import interfaceClassStatic from './interfaceClassStatic';
 import interfaceExtends from './interfaceExtends';
 import classExtends from './classExtends';
 import classExtends1 from './classExtends1';
+import classPublic from './classPublic';
+import classPrivate from './classPrivate';
+import classCompatible from './classCompatible';
 
 const btnList = [
   readonly,
@@ -26,7 +29,10 @@ const btnList = [
   interfaceClassStatic,
   interfaceExtends,
   classExtends,
-  classExtends1
+  classExtends1,
+  classPublic,
+  classPrivate,
+  classCompatible
 ];
 const btnStyleList = [
   'button-3d',
@@ -53,7 +59,7 @@ $(function() {
     const $wrap = $('#app');
     btnList.forEach((el, idx) => {
       const $btn = $(
-        `<button class="button ${getRandomItem(
+        `<button class="button button-3d ${getRandomItem(
           btnStyleList,
           3
         )} btn-custom">${el.name || 'typescript hh'}</button>`
