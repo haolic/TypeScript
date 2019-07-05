@@ -16,6 +16,8 @@ import classExtends1 from './classExtends1';
 import classPublic from './classPublic';
 import classPrivate from './classPrivate';
 import classCompatible from './classCompatible';
+import classProtected from './classProtected';
+import classReadonly from './classReadonly';
 
 const btnList = [
   readonly,
@@ -32,7 +34,9 @@ const btnList = [
   classExtends1,
   classPublic,
   classPrivate,
-  classCompatible
+  classCompatible,
+  classProtected,
+  classReadonly
 ];
 const btnStyleList = [
   'button-3d',
