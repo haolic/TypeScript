@@ -18,6 +18,7 @@ import classPrivate from './classPrivate';
 import classCompatible from './classCompatible';
 import classProtected from './classProtected';
 import classReadonly from './classReadonly';
+import classGetSet from './classGetSet';
 
 const btnList = [
   readonly,
@@ -36,7 +37,8 @@ const btnList = [
   classPrivate,
   classCompatible,
   classProtected,
-  classReadonly
+  classReadonly,
+  classGetSet
 ];
 const btnStyleList = [
   'button-3d',
