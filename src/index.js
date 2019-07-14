@@ -22,6 +22,7 @@ import classGetSet from './classGetSet';
 import classStatic from './classStatic';
 import classAbstract from './classAbstract';
 import classAbotract1 from './classAbotract1';
+import fanxingHelloworld from './fanxingHelloworld';
 
 const btnList = [
   readonly,
@@ -44,7 +45,8 @@ const btnList = [
   classGetSet,
   classStatic,
   classAbstract,
-  classAbotract1
+  classAbotract1,
+  fanxingHelloworld
 ];
 const btnStyleList = [
   'button-3d',
