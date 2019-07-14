@@ -23,6 +23,8 @@ import classStatic from './classStatic';
 import classAbstract from './classAbstract';
 import classAbotract1 from './classAbotract1';
 import fanxingHelloworld from './fanxingHelloworld';
+import generics2 from './generics2';
+import enum1 from './enum1';
 
 const btnList = [
   readonly,
@@ -46,8 +48,11 @@ const btnList = [
   classStatic,
   classAbstract,
   classAbotract1,
-  fanxingHelloworld
+  fanxingHelloworld,
+  generics2,
+  enum1
 ];
+
 const btnStyleList = [
   'button-3d',
   'button-action',

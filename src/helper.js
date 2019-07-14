@@ -20,7 +20,7 @@ const helper = (btnList, btnStyleList) => {
           `<button class="button button-3d ${getRandomItem(
             btnStyleList,
             3
-          )} btn-custom">${el.name || 'typescript hh'}</button>`
+          )} btn-custom"><code>${el.name || 'typescript hh'}</code></button>`
         ).click(() => {
           $('#text .textarea').css({
             height: 0
