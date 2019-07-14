@@ -20,6 +20,8 @@ import classProtected from './classProtected';
 import classReadonly from './classReadonly';
 import classGetSet from './classGetSet';
 import classStatic from './classStatic';
+import classAbstract from './classAbstract';
+import classAbotract1 from './classAbotract1';
 
 const btnList = [
   readonly,
@@ -40,7 +42,9 @@ const btnList = [
   classProtected,
   classReadonly,
   classGetSet,
-  classStatic
+  classStatic,
+  classAbstract,
+  classAbotract1
 ];
 const btnStyleList = [
   'button-3d',
