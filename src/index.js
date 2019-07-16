@@ -25,6 +25,7 @@ import classAbotract1 from './classAbotract1';
 import fanxingHelloworld from './fanxingHelloworld';
 import generics2 from './generics2';
 import enum1 from './enum1';
+import unionType from './unionType';
 
 const btnList = [
   readonly,
@@ -50,7 +51,8 @@ const btnList = [
   classAbotract1,
   fanxingHelloworld,
   generics2,
-  enum1
+  enum1,
+  unionType
 ];
 
 const btnStyleList = [
