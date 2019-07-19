@@ -26,6 +26,7 @@ import fanxingHelloworld from './fanxingHelloworld';
 import generics2 from './generics2';
 import enum1 from './enum1';
 import unionType from './unionType';
+import varCombine from './varCombine';
 
 const btnList = [
   readonly,
@@ -52,7 +53,8 @@ const btnList = [
   fanxingHelloworld,
   generics2,
   enum1,
-  unionType
+  unionType,
+  varCombine
 ];
 
 const btnStyleList = [
