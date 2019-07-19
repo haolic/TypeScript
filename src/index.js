@@ -57,13 +57,6 @@ const btnList = [
   varCombine
 ];
 
-const btnStyleList = [
-  'button-3d',
-  'button-action',
-  'button-pill',
-  // 'button-giant',
-  'button-longshadow-right',
-  'button-longshadow-left'
-];
+const btnStyleList = ['button-3d', 'button-action', 'button-pill'];
 
 helper(btnList, btnStyleList);

@@ -9,12 +9,12 @@ interface Animal {
 //   walk(num: number): string;
 //   walk(num: string): number;
 // }
-
-const dog: Animal = {
-  walk(num: string | number) {
-    return 10;
-  }
-};
+// 接口合并了但是不会用合并后的接口🤔🤔🤔
+// const dog: Animal = {
+//   walk(num: string | number) {
+//     return 10;
+//   }
+// };
 
 export default {
   name: '声明合并',
@@ -31,12 +31,12 @@ export default {
   //   walk(num: number): string;
   //   walk(num: string): number;
   // }
-  
-  const dog: Animal = {
-    walk(num: string | number) {
-      return 10;
-    }
-  };
+  // 接口合并了但是不会用合并后的接口🤔🤔🤔
+  // const dog: Animal = {
+  //   walk(num: string | number) {
+  //     return 10;
+  //   }
+  // };
     `;
   }
 };
