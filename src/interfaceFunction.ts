@@ -25,10 +25,10 @@ const _func = (): string => {
       return false;
     }
     return true;
-  };`
-}
+  };`;
+};
 
 export default {
   name: '函数类型',
-  fn: _func
+  fn: _func,
 };

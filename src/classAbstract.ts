@@ -9,7 +9,7 @@ export default {
   name: '抽象类',
   fn: () => {
     console.error(`[tsl] ERROR in /Users/faruxue/p/TypeScript/src/classAbstract.ts(11,20)
-    TS2511: Cannot create an instance of an abstract class.`)
+    TS2511: Cannot create an instance of an abstract class.`);
     return `
     abstract class Animal {
       abstract makeSound(): void;
@@ -18,6 +18,6 @@ export default {
       }
     }
     const animal = new Animal();
-    `
-  }
-}
+    `;
+  },
+};

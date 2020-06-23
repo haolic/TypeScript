@@ -4,12 +4,12 @@ const readonly = () => {
     readonly y: number;
   }
   const p1: Point = { x: 10, y: 20 };
-  console.log("readonly");
+  console.log('readonly');
   return `  interface Point {
     readonly x: number;
     readonly y: number;
   }
-  const p1: Point = { x: 10, y: 20 };`
+  const p1: Point = { x: 10, y: 20 };`;
   // p1.x = 5;  // error
 };
-export default { name: "readonly", fn: readonly };
+export default { name: 'readonly', fn: readonly };

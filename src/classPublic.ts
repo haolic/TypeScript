@@ -26,6 +26,6 @@ class Animal {
 }
 const an = new Animal('dog');
 an.move(30);
-    `
-  }
-}
+    `;
+  },
+};

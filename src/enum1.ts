@@ -2,7 +2,7 @@ enum Direction {
   A,
   B,
   C,
-  D
+  D,
 }
 
 export default {
@@ -17,6 +17,6 @@ export default {
       D
     }
     console.log(Direction.A);
-    `
-  }
-}
+    `;
+  },
+};

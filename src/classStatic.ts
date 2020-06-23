@@ -26,6 +26,6 @@ class Grid {
 
 const grid = new Grid(1);
 console.log(grid.calculateDistanceFromOrigin({ x: 3, y: 4 }));
-    `
-  }
-}
+    `;
+  },
+};

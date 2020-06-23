@@ -19,7 +19,7 @@ const func = () => {
   interface NewSquare extends Shape, PenStroke {
     sideLength: number;
   }
-  let newSquare = <NewSquare>{}
+  let newSquare = <NewSquare>{};
   newSquare.color = 'blue';
   newSquare.sideLength = 10;
   newSquare.penWidth = 5.0;
@@ -49,8 +49,8 @@ const func = () => {
   newSquare.sideLength = 10;
   newSquare.penWidth = 5.0;
   `;
-}
+};
 export default {
   name: 'interface extends',
-  fn: func
-}
+  fn: func,
+};

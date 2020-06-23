@@ -5,13 +5,13 @@ interface IndexType {
   4: number;
 }
 
-const testarr: IndexType = [1, 3, "3", "4", 8];
+const testarr: IndexType = [1, 3, '3', '4', 8];
 
 interface IndexType2 {
   [index: number]: string;
 }
 
-const testarr2: IndexType2 = ["d", "2"];
+const testarr2: IndexType2 = ['d', '2'];
 const func = (): string => {
   return `
   interface IndexType {
@@ -28,9 +28,9 @@ const func = (): string => {
   }
   
   const testarr2: IndexType2 = ["d", "2"];
-  `
+  `;
 };
 export default {
-  name: "索引类型",
-  fn: func
+  name: '索引类型',
+  fn: func,
 };

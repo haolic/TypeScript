@@ -30,8 +30,7 @@ const func = () => {
   let digital = createClock(DigitalClock, 12, 17);
   let analog = createClock(AnalogClock, 7, 32);
   console.log(digital, analog);
-  return (
-`
+  return `
 interface ClockConstructor {
   new (hour: number, minute: number): ClockInterface;
 }
@@ -62,10 +61,9 @@ class AnalogClock implements ClockInterface {
 
 let digital = createClock(DigitalClock, 12, 17);
 let analog = createClock(AnalogClock, 7, 32);
-`
-  )
+`;
 };
 export default {
   name: '类静态部分与实例部分',
-  fn: func
+  fn: func,
 };

@@ -8,5 +8,5 @@ export default {
 const unionType = (count: number | string): boolean => {
   return Number(count) > 3;
 };
-  `
-}
+  `,
+};

@@ -16,5 +16,5 @@ const func: Func = (num:number, name:string): boolean => {
 };
 export default {
   name: '函数类型1',
-  fn: func
+  fn: func,
 };

@@ -1,4 +1,3 @@
-
-  interface Window {
-    aaa:boolean;
-  }
+interface Window {
+  aaa: boolean;
+}

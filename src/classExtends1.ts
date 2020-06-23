@@ -47,5 +47,5 @@ class Dog extends Animal {
 const dog = new Dog('ddog');
 dog.move(2);
     `;
-  }
+  },
 };

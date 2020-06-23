@@ -11,14 +11,14 @@ interface Fish {
 const getSmallPet = (): Bird | Fish => {
   return {
     fly: () => {
-      console.log("fly");
+      console.log('fly');
     },
     swim: () => {
-      console.log("swim");
+      console.log('swim');
     },
     layEggs: () => {
-      console.log("layEggs");
-    }
+      console.log('layEggs');
+    },
   };
 };
 const pet = getSmallPet();
@@ -29,7 +29,7 @@ if ((<Fish>pet).swim) {
   (<Bird>pet).fly();
 }
 export default {
-  name: "类型保护",
+  name: '类型保护',
   fn: () => `
   interface Bird {
     fly(): void;
@@ -61,5 +61,5 @@ export default {
   } else {
     (<Bird>pet).fly();
   }
-`
+`,
 };

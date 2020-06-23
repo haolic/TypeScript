@@ -12,7 +12,7 @@ const helper = (btnList, btnStyleList) => {
     }
     return str;
   };
-  $(function() {
+  $(function () {
     const renderDom = () => {
       const $wrap = $('#app');
       btnList.forEach((el, idx) => {
@@ -20,15 +20,17 @@ const helper = (btnList, btnStyleList) => {
           `<button class="button button-3d ${getRandomItem(
             btnStyleList,
             3
-          )} btn-custom"><code>${el.name || 'typescript hh'}</code></button>`
+          )} btn-custom ${
+            idx % 2 === 0 ? 'button-longshadow-left' : 'button-longshadow-right'
+          }"><code>${el.name || 'typescript hh'}</code></button>`
         ).click(() => {
           $('#text .textarea').css({
-            height: 0
+            height: 0,
           });
           setTimeout(() => {
             $('#text .textarea')
               .css({
-                height: '80%'
+                height: '80%',
               })
               .text(el.fn());
           }, 300);

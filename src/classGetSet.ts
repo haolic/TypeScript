@@ -1,30 +1,30 @@
-let passcode = "secret passcode";
+let passcode = 'secret passcode';
 
 class Employee {
   private _fullName: string;
-  
+
   get fullName(): string {
     return this._fullName;
   }
 
   set fullName(newName: string) {
-    if (passcode && passcode === "secret passcode") {
+    if (passcode && passcode === 'secret passcode') {
       this._fullName = newName;
     } else {
-      console.log("Error: Unauthorized update of employee");
+      console.log('Error: Unauthorized update of employee');
     }
   }
 }
 
 export default {
-  name: "存取器",
+  name: '存取器',
   fn: () => {
-    passcode = "secret passcode"
+    passcode = 'secret passcode';
     const employee = new Employee();
-    employee.fullName = "Bob Smith";
-    passcode = "ddddd";
+    employee.fullName = 'Bob Smith';
+    passcode = 'ddddd';
     const employee2 = new Employee();
-    employee2.fullName = "Bob Smith";
+    employee2.fullName = 'Bob Smith';
     return `
 const passcode = "secret passcode";
 
@@ -49,6 +49,6 @@ employee.fullName = "Bob Smith";
 passcode = "ddddd";
 const employee2 = new Employee();
 employee2.fullName = "Bob Smith";
-    `
-  }
-}
+    `;
+  },
+};
